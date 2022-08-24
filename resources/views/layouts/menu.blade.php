@@ -151,8 +151,8 @@
                                                             Error Page</a>
                                                     </li>
                                                     <li>
-                                                        <a href="contact.html">
-                                                            <i class="fas fa-spinner"></i>Contact</a>
+                                                        <a href="{{route('login')}}">
+                                                            <i class="fas fa-spinner"></i>Login</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -181,7 +181,16 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <li>
+                                <a href="{{route("login")}}">Login</a>
+                            </li>
+                            <li>
+                                <a href="{{route("logout")}}">Logout</a>
+                            </li>
+
+                            </li>
+                            <li>
+                                <a href="{{route("register")}}">register</a>
                             </li>
                         </ul>
                     </nav>

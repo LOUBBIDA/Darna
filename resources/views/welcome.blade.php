@@ -1393,7 +1393,7 @@
                                     width="102"></div>
                         </div>
                         <div class="item-content">
-                            <h2 class="heading-title">Become a Real Estate Agent</h2>
+                            <h2 class="heading-title"> </h2>
                             <p>We only work with the best companies around the globe to survey</p>
                         </div>
                     </div>

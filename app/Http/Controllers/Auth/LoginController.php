@@ -41,7 +41,7 @@ class LoginController extends Controller
 
     protected function authenticated(){
         if (Auth::check() && Auth::user()->user_type === "admin") {
-            // return redirect()->route('')
+            return redirect()->route('');
         }
     }
 }
