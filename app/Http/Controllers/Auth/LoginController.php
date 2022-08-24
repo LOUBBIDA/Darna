@@ -37,11 +37,12 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+        return redirect()->route('home');
     }
 
     protected function authenticated(){
         if (Auth::check() && Auth::user()->user_type === "admin") {
-            return redirect()->route('');
+            return redirect()->route('dashboard');
         }
     }
 }

@@ -6,7 +6,7 @@
                 <div class="col-xl-2 col-lg-2">
                     <div class="logo-area">
                         <a href="index.html" class="temp-logo">
-                            <img src="img/logo_light.svg" width="157" height="40" alt="logo" class="img-fluid">
+                            <img src="{{asset('homlisti/img/logo.svg')}}" width="157" height="40" alt="logo" class="img-fluid">
                         </a>
                     </div>
                 </div>
