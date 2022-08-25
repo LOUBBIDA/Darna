@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\WebController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -24,6 +26,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('logout', [LoginController::class, 'logout'])->name('logout');
+Route::resource('category', CategoryController::class)->middleware('auth','admin');
 Route::middleware('ayoub-admin')->group(function(){
+
 Route::get('dashboard',[WebController::class,'admin'])->name('dashboard');
  });
