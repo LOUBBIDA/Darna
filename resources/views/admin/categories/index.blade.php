@@ -51,11 +51,8 @@
                                                             @method('DELETE')
                                                             @csrf
                                                             <div class="modal-footer">
-                                                                <button type="submit"
-                                                                    class="btn btn-danger">Supprimer</button>
-                                                                <a class="btn btn-secondary text-white"
-                                                                    data-bs-dismiss="modal"
-                                                                    href="{{ route('category.update', encrypt($category->id)) }}">modifier</a>
+                                                                <button type="submit" class="btn btn-danger ">Supprimer</button>
+                                                                <a class="btn btn-secondary text-white btn-success" href="{{ route('category.edit', encrypt($category->id)) }}">modifier</a>
                                                             </div>
                                                         </form>
                                                     </td>

@@ -6,7 +6,8 @@
                 <div class="col-xl-2 col-lg-2">
                     <div class="logo-area">
                         <a href="index.html" class="temp-logo">
-                            <img src="{{asset('homlisti/img/logo.svg')}}" width="157" height="40" alt="logo" class="img-fluid">
+                            <img src="{{ asset('homlisti/img/logo.svg') }}" width="157" height="40" alt="logo"
+                                class="img-fluid">
                         </a>
                     </div>
                 </div>
@@ -15,27 +16,12 @@
                         <ul>
                             <li>
                                 <a href="index.html" class="active text-dark">Home</a>
-                                <ul class="dropdown-menu-col-1">
-                                    <li>
-                                        <a href="index.html">Home Page 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Home Page 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Home Page 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index4.html">Home Page 4</a>
-                                    </li>
-                                    <li>
-                                        <a href="index5.html">Home Page 5</a>
-                                    </li>
-                                </ul>
+
                             </li>
                             <li>
-                                <a href="about-1.html">About</a>
+                                <a href="about-1.html">contactez-nous</a>
                             </li>
+
                             <li>
                                 <a href="with-sidebar2.html">Property</a>
                                 <ul class="dropdown-menu-col-1">
@@ -66,103 +52,28 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="agent-lists1.html">Agents</a>
+                                <a href="agent-lists1.html">connexion</a>
                                 <ul class="dropdown-menu-col-1">
                                     <li>
-                                        <a href="agent-lists1.html">Agent List Page</a>
+                                        <a href="{{ route('register') }}">
+                                            <i class="fas fa-spinner"></i>register</a>
                                     </li>
                                     <li>
-                                        <a href="agency-lists1.html">Agencies List Page</a>
+                                        <a href="{{ route('login') }}">
+                                            <i class="fas fa-spinner"></i>Login</a>
                                     </li>
                                     <li>
-                                        <a href="single-agent1.html">Single Agent Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="single-agency1.html">Single Agency Page</a>
+                                        <a href="{{ route('logout') }}">
+                                            <i class="fas fa-spinner"></i>Logout</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="position-static hide-on-mobile-menu">
-                                <a href="index.html">Pages</a>
-                                <div class="template-mega-menu">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-3">
-                                                <div class="menu-ctg-title">Pages</div>
-                                                <ul class="sub-menu">
-                                                    <li>
-                                                        <a href="blog1.html">
-                                                            <i class="fas fa-chart-pie"></i>Blog 1</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="blog2.html">
-                                                            <i class="fas fa-chart-pie"></i>Blog 2</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="blog-details1.html">
-                                                            <i class="fas fa-chart-pie"></i>Blog Details
-                                                            Page</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-3">
-                                                <div class="menu-ctg-title">Pages</div>
-                                                <ul class="sub-menu">
-                                                    <li>
-                                                        <a href="agent-lists1.html">Agent List Page<i class="fas fa-user"></i></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="agency-lists1.html">Agencies List <i class="fas fa-user"></i></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="agent-reviews1.html">Agent Reviews Page<i class="fas fa-user"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-3">
-                                                <div class="menu-ctg-title">Pages</div>
-                                                <ul class="sub-menu">
-                                                    <li>
-                                                        <a href="agent-reviews1.html"><i class="far fa-money-bill-alt"></i>Agent Reviews Page</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="about-1.html">
-                                                            <i class="fas fa-camera"></i>About page</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="agent-lists1.html">
-                                                            <i class="far fa-address-card"></i>Agent List
-                                                            Page</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-3">
-                                                <div class="menu-ctg-title">Pages</div>
-                                                <ul class="sub-menu">
-                                                    <li>
-                                                        <a href="pricing-1.html">
-                                                            <i class="fas fa-chalkboard-teacher"></i>Pricing
-                                                            Plan
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="404.html">
-                                                            <i class="fas fa-exclamation-triangle"></i>
-                                                            Error Page</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="{{route('login')}}">
-                                                            <i class="fas fa-spinner"></i>Login</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
+
+
                             <li class="hide-on-desktop-menu">
                                 <a href="index.html">Pages</a>
-                                <ul>
+                                <ul class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
                                     <li>
                                         <a href="about-1.html">About</a>
                                     </li>
@@ -179,19 +90,11 @@
                                         <a href="contact.html">Contact page</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li>
-                                <li>
-                                <a href="{{route("login")}}">Login</a>
-                            </li>
-                            <li>
-                                <a href="{{route("logout")}}">Logout</a>
-                            </li>
 
                             </li>
-                            <li>
-                                <a href="{{route("register")}}">register</a>
-                            </li>
+
+
+
                         </ul>
                     </nav>
                 </div>
@@ -233,11 +136,10 @@
         </div>
     </div>
 </header>
-<div class="rt-header-menu mean-container position-relative"
-    id="meanmenu">
+<div class="rt-header-menu mean-container position-relative" id="meanmenu">
     <div class="mean-bar">
         <a href="index.html">
-            <img src='img/logo_light2.svg' alt='logo' class='img-fluid'/>
+            <img src='img/logo_light2.svg' alt='logo' class='img-fluid' />
         </a>
         <div class="mean-bar--right">
             <div class="actions search">

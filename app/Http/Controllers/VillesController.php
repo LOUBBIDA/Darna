@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Category;
+use App\Models\villes;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 
-class CategoryController extends Controller
+
+class VillesController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +16,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::all();
-        return view('admin.categories.index', compact('categories'));
+        $villes = villes::all();
+        return view('admin.villes.index', compact('villes'));
     }
 
     /**
@@ -26,7 +27,8 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('admin.categories.create');
+        return view('admin.villes.create');
+
     }
 
     /**
@@ -40,23 +42,21 @@ class CategoryController extends Controller
         $request->validate([
             'name' => 'required'
         ]);
-        $category = new Category();
-        $category->name = $request->name;
-        if ($request->hasFile('image')) {
-            $category->image = $request->file('image')->store('images/events');
-        }
-        $category->slug = Str::slug($request->name);
-        $category->save();
-        return redirect()->route('category.index');
+        $villes = new villes();
+        $villes->name = $request->name;
+
+        $villes->slug = Str::slug($request->name);
+        $villes->save();
+        return redirect()->route('villes.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\villes  $villes
      * @return \Illuminate\Http\Response
      */
-    public function show(Category $category)
+    public function show(villes $villes)
     {
         //
     }
@@ -64,20 +64,20 @@ class CategoryController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\villes  $villes
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $category = Category::find(decrypt($id));
-        return view('admin.categories.edit', compact('category'));
+        $villes = villes::find(decrypt($id));
+        return view('admin.villes.edit', compact('villes'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\villes  $villes
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -86,25 +86,22 @@ class CategoryController extends Controller
             'name' => 'required'
 
         ]);
-        $category = Category::find($id);
-        $category->name = $request->name;
-        if ($request->hasFile('image')) {
-            $category->image = $request->file('image')->store('images/events');
-        }
+        $ville = villes::find($id);
+        $ville->name = $request->name;
 
-        $category->save();
-        return redirect()->route('category.index');
+        $ville->save();
+        return redirect()->route('villes.index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Category  $category
+     * @param  \App\Models\villes  $villes
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
-        Category::destroy($id);
-        return redirect()->route('category.index');
+        villes::destroy($id);
+        return redirect()->route('villes.index');
     }
 }

@@ -17,7 +17,7 @@
         href="https://php.spruko.com/noa/noa/assets/images/brand/favicon.ico" />
 
     <!-- TITLE -->
-    <title>HomListi | DashBoard </title>
+    <title>Noa – PHP Bootstrap 5 Admin & Dashboard Template </title>
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" />
@@ -35,8 +35,8 @@
 </head>
 
 <body>
-    @include('admin.layouts.top-bar')
-    @include('admin.layouts.side-bar')
+    @include('users.layouts.top-bar')
+    @include('users.layouts.side-bar')
     <br>
     <br>
     <br>
