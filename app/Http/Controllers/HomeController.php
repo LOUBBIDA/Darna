@@ -25,5 +25,13 @@ class HomeController extends Controller
     {
         return view('welcome');
     }
+    public function contact()
+    {
+        return view('page.contact');
+    }
+    public function annonces()
+    {
+        return view('annonces.annonces');
+    }
 
 }

@@ -4,19 +4,19 @@ Template Name: HomListi | A Real Estate HTML Template
 Template URL: https://radiustheme.com/demo/html/homlisti/
 Description:  HomListi | A Real Estate HTML Template
 Author: RadiusTheme
-Author URL: http://www.radiustheme.com 
+Author URL: http://www.radiustheme.com
 Version: 1.0.0
 
-===================   
+===================
 CSS INDEX
 ===================
 
 1. Typography
-2. Variables 
+2. Variables
 3. Bootstrap Overwrite
   3.1 Form
   3.2 Grid
-4. Vendor Custom Style 
+4. Vendor Custom Style
   4.1  Owl Carousel Nav
 5. Template Layout Style
   5.1 Back-to-top
@@ -39,7 +39,7 @@ CSS INDEX
   6.4 Banner
   6.5 Banner Search
   6.6 Property Banner
-  6.7 Main Banner 
+  6.7 Main Banner
   6.8 Blog
   6.9 Brand
   6.10 Breadcrumb
@@ -50,7 +50,7 @@ CSS INDEX
   6.15 Grid Wrap
   6.16 Location
   6.17 Newsletter
-  6.18 Pricing 
+  6.18 Pricing
   6.19 progress
   6.20 Property
   6.21 Single Listing
@@ -60,11 +60,16 @@ CSS INDEX
   6.25 Why-choose
   6.26 Compare
   6.27 My Account
- 
+
 /*=======================================================================
 /*=======================================================================
-  1. Typography 
+  1. Typography
 =========================================================================*/
+.col-md-9.mx-auto  {
+    background-color: #4bea9b;
+
+}
+
 @font-face {
   font-family: "Quentin";
   src: url("webfonts/Quentin.woff2") format("woff2"), url("webfonts/Quentin.woff") format("woff");
@@ -143,7 +148,7 @@ h6 {
   line-height: 24px;
 }
 /*=======================================================================
-2. Variables 
+2. Variables
 ========================================================================*/
 :root {
   --font-family-body: "Roboto", sans-serif;
@@ -400,7 +405,7 @@ h6 {
   }
 }
 /*=======================================================================
-4. Vendor Custom Style 
+4. Vendor Custom Style
 =========================================================================*/
 /*------------------- 4.1 Owl Carousel Nav -------------------*/
 .nav-control-layout1 .owl-nav button {

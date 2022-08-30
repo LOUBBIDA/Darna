@@ -15,12 +15,16 @@
                     <nav id="dropdown" class="template-main-menu">
                         <ul>
                             <li>
-                                <a href="index.html" class="active text-dark">Home</a>
+                                <a href="{{ route('home') }}" class="active text-dark">Home</a>
 
                             </li>
                             <li>
-                                <a href="about-1.html">contactez-nous</a>
+
                             </li>
+                            <li>
+                                <a href="{{route('contact')}}">contactez-nous</a>
+                            </li>
+
 
                             <li>
                                 <a href="with-sidebar2.html">Property</a>
@@ -65,6 +69,10 @@
                                     <li>
                                         <a href="{{ route('logout') }}">
                                             <i class="fas fa-spinner"></i>Logout</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{route('annonces')}}" class="btn"> ajouter une annonce</a>
+                                            <i class="fas fa-spinner"></i>ajouter</a>
                                     </li>
                                 </ul>
                             </li>

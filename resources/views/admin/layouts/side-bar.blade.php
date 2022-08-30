@@ -2,7 +2,7 @@
 
     <div class="app-sidebar mb-5">
         <div class="logo-area">
-            <a href="index.html" class="temp-logo">
+            <a href="{{ route('home') }}" class="temp-logo">
                 <img src="{{ asset('homlisti/img/logo.svg') }}" width="157" height="40" alt="logo"
                     class="img-fluid">
             </a>

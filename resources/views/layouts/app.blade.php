@@ -73,7 +73,7 @@
                         <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                             <div class="footer-logo-area footer-logo-area-2">
                                 <div class="item-logo">
-                                    <img src="img/logo_light.svg" width="157" height="40" alt="logo" class="img-fluid">
+                                    <img src="{{asset('homlisti/img/logo_light.svg')}}" width="157" height="40" alt="logo" class="img-fluid">
                                 </div>
                                 <p>Corem ipsum dolor sit amet consecte turad
                                     pisicing elit, sed do eiusmod tempor inci
@@ -101,7 +101,7 @@
                                         <li><a href="blog-details1.html">Blogs & Articles </a></li>
                                         <li><a href="about-1.html">Terms & Conditions</a></li>
                                         <li><a href="about-1.html">Privacy Policy </a></li>
-                                        <li><a href="contact.html">Contact Us </a></li>
+                                        <li><a href="{{route('contact')}}">Contact Us </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -116,7 +116,7 @@
                                         <li>
                                             <div class="item-img">
                                                 <a href="https://www.instagram.com/" class="insta-pic">
-                                                    <img src="img/instagram/insta1.jpg" width="86" height="73"
+                                                    <img src="{{asset('homlisti/img/instagram/insta1.jpg')}}" width="86" height="73"
                                                         alt="instagram">
                                                 </a>
                                                 <div class="item-overlay">
@@ -129,7 +129,7 @@
                                         <li>
                                             <div class="item-img">
                                                 <a href="https://www.instagram.com/" class="insta-pic">
-                                                    <img src="img/instagram/insta2.jpg" width="86" height="73"
+                                                    <img src="{{asset('homlisti/img/instagram/insta2.jpg')}}" width="86" height="73"
                                                         alt="instagram">
                                                 </a>
                                                 <div class="item-overlay">
@@ -142,7 +142,7 @@
                                         <li>
                                             <div class="item-img">
                                                 <a href="https://www.instagram.com/" class="insta-pic">
-                                                    <img src="img/instagram/insta3.jpg" width="86" height="73"
+                                                    <img src="{{asset('homlisti/img/instagram/insta3.jpg')}}" width="86" height="73"
                                                         alt="instagram">
                                                 </a>
                                                 <div class="item-overlay">
@@ -155,7 +155,7 @@
                                         <li>
                                             <div class="item-img">
                                                 <a href="https://www.instagram.com/" class="insta-pic">
-                                                    <img src="img/instagram/insta4.jpg" width="86" height="73"
+                                                    <img src="{{asset('homlisti/img/instagram/insta4.jpg')}}" width="86" height="73"
                                                         alt="instagram">
                                                 </a>
                                                 <div class="item-overlay">
@@ -168,7 +168,7 @@
                                         <li>
                                             <div class="item-img">
                                                 <a href="https://www.instagram.com/" class="insta-pic">
-                                                    <img src="img/instagram/insta5.jpg" width="86" height="73"
+                                                    <img src="{{asset('homlisti/img/instagram/insta5.jpg')}}" width="86" height="73"
                                                         alt="instagram">
                                                 </a>
                                                 <div class="item-overlay">
@@ -181,7 +181,7 @@
                                         <li>
                                             <div class="item-img">
                                                 <a href="https://www.instagram.com/" class="insta-pic">
-                                                    <img src="img/instagram/insta6.jpg" width="86" height="73"
+                                                    <img src="{{asset('homlisti/img/instagram/insta6.jpg')}}" width="86" height="73"
                                                         alt="instagram">
                                                 </a>
                                                 <div class="item-overlay">
@@ -202,11 +202,9 @@
                                 </div>
                                 <div class="footer-location">
                                     <ul>
-                                        <li class="item-map"><i class="fas fa-map-marker-alt"></i>121 King St, Melbourne
-                                            den
-                                            3000, Australia</li>
-                                        <li><a href="mailto:info@example.com"><i class="fas fa-envelope"></i>info@example.com</a></li>
-                                        <li><a href="tel:+123596000"><i class="fas fa-phone-alt"></i>(+123) 596 000</a></li>
+                                        <li class="item-map"><i class="fas fa-map-marker-alt"></i>Bab Ailan Derb chtouka 18bis Marrakech</li>
+                                        <li><a href="mailto:info@example.com"><i class="fas fa-envelope"></i>ayoubloubb@gmail.com</a></li>
+                                        <li><a href="tel:+2120639474466"><i class="fas fa-phone-alt"></i>(+212) 06-39-47-44-66</a></li>
                                     </ul>
                                 </div>
                             </div>

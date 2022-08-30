@@ -28,6 +28,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+Route::get('/annonces', [App\Http\Controllers\HomeController::class, 'annonces'])->name('annonces');
 Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 Route::resource('category', CategoryController::class)->middleware('auth','admin');
 Route::resource('villes', VillesController::class)->middleware('auth','admin');

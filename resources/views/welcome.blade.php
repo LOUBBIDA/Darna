@@ -299,42 +299,42 @@
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="brand-box2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="item-img">
-                                    <a href="index.html"><img src="img/brand/brand1.svg" alt="brand"></a>
+                                    <a href="index.html"><img src="{{asset('homlisti/img/brand/brand1.svg')}}" alt="brand"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="brand-box2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="item-img">
-                                    <a href="index.html"><img src="img/brand/brand2.svg" alt="brand"></a>
+                                    <a href="index.html"><img src="{{asset('homlisti/img/brand/brand2.svg')}}" alt="brand"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="brand-box2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="item-img">
-                                    <a href="index.html"><img src="img/brand/brand3.svg" alt="brand"></a>
+                                    <a href="index.html"><img src="{{asset('homlisti/img/brand/brand3.svg')}}" alt="brand"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="brand-box2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="item-img">
-                                    <a href="index.html"><img src="img/brand/brand4.svg" alt="brand"></a>
+                                    <a href="index.html"><img src="{{asset('homlisti/img/brand/brand4.svg')}}" alt="brand"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="brand-box2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="item-img">
-                                    <a href="index.html"><img src="img/brand/brand5.svg" alt="brand"></a>
+                                    <a href="index.html"><img src="{{asset('homlisti/img/brand/brand5.svg')}}" alt="brand"></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <div class="brand-box2 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="item-img">
-                                    <a href="index.html"><img src="img/brand/brand6.svg" alt="brand"></a>
+                                    <a href="index.html"><img src="{{asset('homlisti/img/brand/brand6.svg')}}" alt="brand"></a>
                                 </div>
                             </div>
                         </div>
@@ -372,7 +372,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 for-sell">
                         <div class="property-box2 wow animated fadeInUp" data-wow-delay=".3s">
                             <div class="item-img">
-                                <a href="single-listing1.html"><img src="img/blog/blog4.jpg" alt="blog" width="510" height="340"></a>
+                                <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/blog4.jpg')}}" alt="blog" width="510" height="340"></a>
                                 <div class="item-category-box1">
                                     <div class="item-category">For Sell</div>
                                 </div>
@@ -415,7 +415,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 for-rent">
                         <div class="property-box2 wow animated fadeInUp" data-wow-delay=".2s">
                             <div class="item-img">
-                                <a href="single-listing1.html"><img src="img/blog/blog5.jpg" alt="blog" width="510" height="340"></a>
+                                <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/blog5.jpg')}}" alt="blog" width="510" height="340"></a>
                                 <div class="item-category-box1">
                                     <div class="item-category">For Rent</div>
                                 </div>
@@ -458,7 +458,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 for-sell">
                         <div class="property-box2 wow animated fadeInUp" data-wow-delay=".1s">
                             <div class="item-img">
-                                <a href="single-listing1.html"><img src="img/blog/blog6.jpg" alt="blog" width="510" height="340"></a>
+                                <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/blog6.jpg')}}" alt="blog" width="510" height="340"></a>
                                 <div class="item-category-box1">
                                     <div class="item-category">For Sell</div>
                                 </div>
@@ -501,7 +501,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 for-rent">
                         <div class="property-box2 wow animated fadeInUp" data-wow-delay=".3s">
                             <div class="item-img">
-                                <a href="single-listing1.html"><img src="img/blog/blog7.jpg" alt="blog" width="510" height="340"></a>
+                                <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/blog7.jpg')}}" alt="blog" width="510" height="340"></a>
                                 <div class="item-category-box1">
                                     <div class="item-category">For Rent</div>
                                 </div>
@@ -544,7 +544,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 for-sell">
                         <div class="property-box2 wow animated fadeInUp" data-wow-delay=".6s">
                             <div class="item-img">
-                                <a href="single-listing1.html"><img src="img/blog/blog8.jpg" alt="blog" width="510" height="340"></a>
+                                <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/blog8.jpg')}}" alt="blog" width="510" height="340"></a>
                                 <div class="item-category-box1">
                                     <div class="item-category">For Sell</div>
                                 </div>
@@ -587,7 +587,7 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 for-rent">
                         <div class="property-box2 wow animated fadeInUp" data-wow-delay=".2s">
                             <div class="item-img">
-                                <a href="single-listing1.html"><img src="img/blog/blog9.jpg" alt="blog" width="510" height="340"></a>
+                                <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/blog9.jpg')}}" alt="blog" width="510" height="340"></a>
                                 <div class="item-category-box1">
                                     <div class="item-category">For Rent</div>
                                 </div>
@@ -637,7 +637,7 @@
 
     <section class="about-wrap1 motion-effects-wrap">
         <div class="shape-img1">
-            <img src="img/svg/video-bg-2.svg" alt="shape" width="455" height="516">
+            <img src="{{asset('homlisti/img/svg/video-bg-2.svg')}}" alt="shape" width="455" height="516">
         </div>
         <div class="container">
             <div class="row">
@@ -645,14 +645,14 @@
                     <div class="about-box1 wow fadeInLeft" data-wow-delay=".3s">
                         <div class="">
                             <div class="motion-effects1">
-                                <img src="img/figure/shape7.png" alt="shape" width="95" height="87">
+                                <img src="{{asset('homlisti/img/figure/shape7.png')}}" alt="shape" width="95" height="87">
                             </div>
                             <div class="motion-effects2">
-                                <img src="img/figure/shape8.png" alt="shape" width="90" height="46">
+                                <img src="{{asset('homlisti/img/figure/shape8.png')}}" alt="shape" width="90" height="46">
                             </div>
                         </div>
                         <div class="item-img">
-                            <a href="single-listing1.html"><img src="img/blog/about1.jpg" alt="about" width="626" height="485"></a>
+                            <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/about1.jpg')}}" alt="about" width="626" height="485"></a>
                         </div>
                         <div class="play-button">
                             <div class="item-icon">
@@ -721,7 +721,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="location-box1 wow zoomIn" data-wow-delay=".2s">
                         <div class="item-img">
-                            <a href="single-listing1.html"><img src="img/blog/location1.jpg" alt="location" width="510" height="660"></a>
+                            <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/location1.jpg')}}" alt="location" width="510" height="660"></a>
                         </div>
                         <div class="item-content">
                             <div class="content-body">
@@ -739,7 +739,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="location-box1 wow zoomIn" data-wow-delay=".6s">
                         <div class="item-img">
-                            <a href="single-listing1.html"><img src="img/blog/location2.jpg" alt="location" width="510" height="660"></a>
+                            <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/location2.jpg')}}" alt="location" width="510" height="660"></a>
                         </div>
                         <div class="item-content">
                             <div class="content-body">
@@ -757,7 +757,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="location-box1 wow zoomIn" data-wow-delay=".4s">
                         <div class="item-img">
-                            <a href="single-listing1.html"><img src="img/blog/location3.jpg" alt="location" width="510" height="660"></a>
+                            <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/location3.jpg')}}" alt="location" width="510" height="660"></a>
                         </div>
                         <div class="item-content">
                             <div class="content-body">
@@ -775,7 +775,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6">
                     <div class="location-box1 wow zoomIn" data-wow-delay=".2s">
                         <div class="item-img">
-                            <a href="single-listing1.html"><img src="img/blog/location4.jpg" alt="location" width="510" height="660"></a>
+                            <a href="single-listing1.html"><img src="{{asset('homlisti/img/blog/location4.jpg')}}" alt="location" width="510" height="660"></a>
                         </div>
                         <div class="item-content">
                             <div class="content-body">
@@ -797,7 +797,7 @@
 <!--=   Property Banner     Start       =-->
 <!--=====================================-->
 
-    <section class="property-banner-wrap1 parallaxie" data-bg-image="img/banner/banner3.jpg">
+    <section class="property-banner-wrap1 parallaxie" data-bg-image="{{asset('homlisti/img/banner/banner3.jpg')}}">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 col-md-12">
@@ -845,7 +845,7 @@
                     <div class="team-box1 wow fadeInUp" data-wow-delay=".6s">
                         <div class="item-img">
                             <a href="agent-lists1.html">
-                                <img src="img/team/team17.png" alt="team" width="475" height="511">
+                                <img src="{{asset('homlisti/img/team/team17.png')}}" alt="team" width="475" height="511">
                             </a>
                             <ul class="team-social-1">
                                 <li class="social-item">
@@ -890,7 +890,7 @@
                     <div class="team-box1 wow fadeInUp" data-wow-delay=".4s">
                         <div class="item-img">
                             <a href="agent-lists1.html">
-                                <img src="img/team/team18.png" alt="team" width="475" height="511">
+                                <img src="{{asset('homlisti/img/team/team18.png')}}" alt="team" width="475" height="511">
                             </a>
                             <ul class="team-social-1">
                                 <li class="social-item">
@@ -935,7 +935,7 @@
                     <div class="team-box1 wow fadeInUp" data-wow-delay=".2s">
                         <div class="item-img">
                             <a href="agent-lists1.html">
-                                <img src="img/team/team19.png" alt="team" width="475" height="511">
+                                <img src="{{asset('homlisti/img/team/team19.png')}}" alt="team" width="475" height="511">
                             </a>
                             <ul class="team-social-1">
                                 <li class="social-item">
@@ -980,7 +980,7 @@
                     <div class="team-box1 wow fadeInUp" data-wow-delay=".2s">
                         <div class="item-img">
                             <a href="agent-lists1.html">
-                                <img src="img/team/team20.png" alt="team" width="475" height="511">
+                                <img src="{{asset('homlisti/img/team/team20.png')}}" alt="team" width="475" height="511">
                             </a>
                             <ul class="team-social-1">
                                 <li class="social-item">
@@ -1032,7 +1032,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <div class="action-box1" data-bg-image="img/figure/action1.jpg" >
+                    <div class="action-box1" data-bg-image="{{asset('homlisti/img/figure/action1.jpg')}}" >
                         <div class="action-layout">
                             <div class="item-title">
                                 <div class="item-icon"><i class="fas fa-users"></i></div>
@@ -1057,7 +1057,7 @@
 
     <section class="progress-bar-wrap1 counter-appear">
         <div class="shape-img1 wow fadeInLeft" data-wow-delay=".4s">
-            <img src="img/figure/counter-bg-2.png" alt="progress">
+            <img src="{{asset('homlisti/img/figure/counter-bg-2.png')}}" alt="progress">
         </div>
         <div class="container">
             <div class="item-heading-bar">
@@ -1144,7 +1144,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-lg-5 col-md-12">
                                             <div class="testimonial-img wow fadeInUp" data-wow-delay=".2s">
-                                                <img src="img/blog/testimonial1.jpg" alt="blog">
+                                                <img src="{{asset('homlisti/img/blog/testimonial1.jpg')}}" alt="blog">
                                             </div>
                                         </div>
                                         <div class="col-lg-7 col-md-12">
@@ -1181,7 +1181,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-lg-5 col-md-12">
                                             <div class="testimonial-img wow fadeInUp" data-wow-delay=".2s">
-                                                <img src="img/blog/testimonial3.jpg" alt="blog" width="500" height="321">
+                                                <img src="{{asset('homlisti/img/blog/testimonial3.jpg')}}" alt="blog" width="500" height="321">
                                             </div>
                                         </div>
                                         <div class="col-lg-7 col-md-12">
@@ -1218,7 +1218,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-lg-5 col-md-12">
                                             <div class="testimonial-img wow fadeInUp" data-wow-delay=".2s">
-                                                <img src="img/blog/testimonial4.jpg" alt="blog" width="500" height="321">
+                                                <img src="{{asset('homlisti/img/blog/testimonial4.jpg')}}" alt="blog" width="500" height="321">
                                             </div>
                                         </div>
                                         <div class="col-lg-7 col-md-12">
@@ -1289,7 +1289,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-box1 wow fadeInUp" data-wow-delay=".4s">
                         <div class="item-img">
-                            <a href="blog1.html"><img src="img/blog/blog1.jpg" alt="blog" width="520" height="350"></a>
+                            <a href="blog1.html"><img src="{{asset('homlisti/img/blog/blog1.jpg')}}" alt="blog" width="520" height="350"></a>
                         </div>
                         <div class="thumbnail-date">
                             <div class="popup-date">
@@ -1315,7 +1315,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-box1 wow fadeInUp" data-wow-delay=".3s">
                         <div class="item-img">
-                            <a href="blog1.html"><img src="img/blog/blog2.jpg" alt="blog" width="520" height="350"></a>
+                            <a href="blog1.html"><img src="{{asset('homlisti/img/blog/blog2.jpg')}}" alt="blog" width="520" height="350"></a>
                         </div>
                         <div class="thumbnail-date">
                             <div class="popup-date">
@@ -1341,7 +1341,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="blog-box1 wow fadeInUp" data-wow-delay=".2s">
                         <div class="item-img">
-                            <a href="blog1.html"><img src="img/blog/blog3.jpg" alt="blog" width="520" height="350"></a>
+                            <a href="blog1.html"><img src="{{asset('img/blog/blog3.jpg')}}" alt="blog" width="520" height="350"></a>
                         </div>
                         <div class="thumbnail-date">
                             <div class="popup-date">
@@ -1376,7 +1376,7 @@
             <img src="img/svg/video-bg-2.svg" alt="figure" height="149" width="230">
         </div>
         <div class="shape-img2">
-            <img src="img/svg/video-bg-2.svg" alt="figure" height="149" width="230">
+            <img src="{{asset('homlisti/img/svg/video-bg-2.svg')}}" alt="figure" height="149" width="230">
         </div>
         <div class="container">
             <div class="row align-items-center">
@@ -1385,11 +1385,11 @@
                         <div class="item-img">
                             <img src="img/banner/banner1.png" alt="banner" height="252" width="169"
                                 class="img-bg-space">
-                            <div class="motion-effects3"><img src="img/figure/shape3.png" alt="shape" height="113"
+                            <div class="motion-effects3"><img src="{{asset('homlisti/img/figure/shape3.png')}}" alt="shape" height="113"
                                     width="113"></div>
-                            <div class="motion-effects4"><img src="img/figure/shape4.png" alt="shape" height="157"
+                            <div class="motion-effects4"><img src="{{asset('homlisti/img/figure/shape4.png')}}" alt="shape" height="157"
                                     width="154"></div>
-                            <div class="motion-effects5"><img src="img/figure/shape5.png" alt="shape" height="91"
+                            <div class="motion-effects5"><img src="{{asset('homlisti/img/figure/shape5.png')}}" alt="shape" height="91"
                                     width="102"></div>
                         </div>
                         <div class="item-content">
